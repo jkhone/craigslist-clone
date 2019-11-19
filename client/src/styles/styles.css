@@ -1,0 +1,96 @@
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+}
+
+.side, .middle, .cities {
+    margin: 10px;
+}
+
+.side, .cities {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side {
+    width: 15%;
+    background: #eee;
+    text-align: center;
+}
+
+.city {
+    background: #eee;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.city p {
+    margin: 0;
+}
+
+.middle {
+    width: 75%;
+    text-align: center;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+}
+
+.category {
+    margin: 10px;
+}
+
+div .section {
+    height: 33vh;
+    overflow: scroll;
+}
+
+div .subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div .subsection li {
+    border-bottom: 1px solid #ccc;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+
+.category h3 {
+    background: #eee;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.cities {
+    width: 10%;
+    background: #eee;
+    text-align: center;
+}
+
+.cities li {
+    font-size: 12px;
+}
